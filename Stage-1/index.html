@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Majid's Notes</title>
+    <style type="text/css">
+    <!--
+    .tab {
+        margin-left: 40px;
+    }
+    -->
+    </style>
+    <link rel="stylesheet" href="majidstyle.css")
+  </head>
+  <body>
+    <div class="title">
+        <h1>Introduction to Programming Nanodegree Notes</h1>
+            <ol>
+                <li><a href="#lesson-1">Lesson 1: The Basics of the Web and HTML</a></li>
+                <li><a href="#lesson-2">Lesson 2: Creating a Structured Document with HTML</a></li>
+                <li><a href="#lesson-3">Lesson 3: Adding CSS Style to HTML Structure</a></li>
+            <ol>
+    </div>
+    <div class="lesson">
+        <h2 id="lesson-1">Lesson 1: The Basics of the Web and HTML</h2>
+            <div class="elements">
+                <ul>
+                    <li><<b>Bold</b> text: &#60b&#62 text &#60/b&#62</li>
+                    <li><em>Italic</em> text (em or emphasis): &#60em&#62text&#60/em&#62</li>
+                    <li><u>Links</u> (Anchor): &#60a href="source url"&#62text to hyperlink&#60/a&#62</li>
+                        <ul>
+                            <li>Example: <a href="udacity.com"> Udacity </a></li>
+                        </ul>
+                    <li><u>Images</u>: &#60img src="url" alt="text"&#62 (this is a void tag, i.e. no closing tag as it doesn't have any content)
+                        <ul>
+                            <li>Example: <img src="http://www.udacity.com/cs253x/hipmunk.png" alt="Udacity logo"></li>
+                        </ul>
+                    <li><u>Break</u> (new line): &#60br&#62 (another void tag)</li>
+                    <li><u>Paragraph</u> (puts a box around the content): &#60p&#62content&#60/p&#62</li>
+                </ul>
+                <p>A break tag is an <b>inline</b> tag, i.e. it only contains content.</p>
+                <p>A paragraph tag is a <b>block</b> tag, i.e. it can have height and width.</p>
+            </div>
+            <div class="containers">
+                <h3>Container Elements</h3>
+                    You can add styles (CSS) to these tags.
+                    <p>&#60span&#62text&#60/span&#62 is inline
+                        <br>
+                            This tag provides a way to add a hook to a part of a text or a part of a document. (<em>Source: <a href="w3schools.com">w3schools</a></em>)
+                    </p>
+                    <p>&#60div&#62 text &#60/div&#62 is block
+                        <br>
+                            This tag is very often used together with CSS, to layout a web page. (<em>Source: <a href="w3schools.com">w3schools</a></em>)
+                    </p>
+            </div>
+        <h2 id="lesson-2">Lesson 2: Creating a Structured Document with HTML</h2>
+            <div class="website">
+               <h3>HTML, CSS, JavaScript</h3>
+                    <p>
+                        They are all languages that form the componenets of a website. <b>HTML</b> gives <em>Sturcture</em>, <b>CSS</b> gives <em>Style</em>, and <b>JavaScript</b> gives the <em>Interactive Components</em>.
+                    </p>
+                    <p>
+                        <b>CSS</b> = Cascading Style Sheets
+                    </p>
+                    <p>
+                        <b>DOM (Document Object Model)</b> = tree-like structure of a page; a cross-platform and language-independent convention for representing and interacting with objects in HTML (HyperText Markup Language and other markup languages). The nodes of every document are organized in a tree structure, called the DOM tree.
+                    </p>
+            </div>
+  </body>
+</html>
